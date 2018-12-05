@@ -117,3 +117,15 @@ Usually implemented as
     <li class="breadcrumb-item active">About Us</li>
 </div>
 ```
+### Font-icons
+We use the ```font-awesome``` and ```bootstrap-social``` libraries.
+Font-awesome provides the icons while Bootstrap-social, the background.
+```html
+<!-- a home icon -->
+<span class="fa fa-home fa-lg"></span>
+<!-- a social media icon -->
+<a class="btn btn-social-icon btn-facebook" 
+    href="http://www.facebook.com/profile.php?id=">
+        <i class="fa fa-facebook fa-lg"></i></a>
+```
+
