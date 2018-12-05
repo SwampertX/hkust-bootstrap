@@ -128,4 +128,22 @@ Font-awesome provides the icons while Bootstrap-social, the background.
     href="http://www.facebook.com/profile.php?id=">
         <i class="fa fa-facebook fa-lg"></i></a>
 ```
+### Button-groups
+- div (button group)
+    - a tag surrounding icons and texts (buttons)
+    - ...
+- available classes (for color)
+    - btn btn-primary (Deep blue)
+    - btn btn-info (Light blue)
+    - btn btn-success (Green)
+```html
+<div class="btn-group" role="group">
+    <a role="button" class="btn btn-primary" href="tel:+85212345678">
+        <i class="fa fa-phone"></i> Call</a>
+    <a role="button" class="btn btn-info">
+        <i class="fa fa-skype"></i> Skype</a>
+    <a role="button" class="btn btn-success" href="mailto:confusion@food.net">
+        <i class="fa fa-envelope-o"></i> Email</a>
+</div>
+```
 
