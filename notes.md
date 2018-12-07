@@ -147,3 +147,40 @@ Font-awesome provides the icons while Bootstrap-social, the background.
 </div>
 ```
 
+### Forms
+- div-wrapped-form (to prevent overextension of textboxes on big screens)
+    - div-wrapped-entry-rows ```class="form-group rows"```, for ex: 
+    - textboxes
+        - label (can give 2 columns on bigger screens for uniformity)
+        ```class="col-md-2 col-form-label"```
+        - div-wrapped input (distribute up the remaining space)
+        ```class="form-control"```
+    - checkbox (i will *throw* the example here)
+        ```html
+        <div class="form-group row">
+            <div class="col-md-6 offset-md-2">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                    <label class="form-check-label" for="approve">
+                        <strong>May we contact you?</strong>
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <select class="form-control">
+                    <option>Tel.</option>
+                    <option>Email</option>
+                </select>
+            </div>
+        </div>
+        ```
+    - textarea
+        - similar to textboxes, just change input tag to textarea tag
+    - submit button
+        - a div-wrapped button tag
+        ```html
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Send Feedback</button>
+            </div>
+        ```
+
