@@ -183,4 +183,42 @@ Font-awesome provides the icons while Bootstrap-social, the background.
                 <button type="submit" class="btn btn-primary">Send Feedback</button>
             </div>
         ```
+### Tables and Cards
+Tables:
+- div (class="table-responsive")
+    - table (class="table table-striped")
+        - thead (class="thead-dark")
+            - tr
+                - th or td
+                - th or td
+                - ...
+        - tbody
+            - tr
+                - th or td
+                - th or td 
+                - ...
+
+Cards: Facts
+- div (class="col-*")
+    - div (class="card")
+        - header (class="card-header bg-primary text-white)
+        - div (class="card-body")
+        - dl (class="row")
+            - dt (class="col-6")
+            - dd (class="col-6")
+            - dt (class="col-6")
+            - dd (class="col-6")
+            - ...
+
+Cards: Quote
+- div (class="col-*")
+    - div (class="card card-body bg-light")
+        - blockquote (class="blockquote")
+            - p (class="mb-0")
+              quote goes here...
+            - footer (class=blockquote-footer)
+              author goes here
+                - cite
+                  source goes here
+
 
